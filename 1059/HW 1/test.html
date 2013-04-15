@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Test Page</title>
+<link rel="stylesheet" type="text/css" href="testcss.css" />
+<link rel="shortcut icon" href="http://example.com/myicon.ico" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">
+<![CDATA[
+
+]]>
+</script>
+</head>
+<body>
+<div id="container">
+
+<div id="header">
+	<div id="headertext">
+		<h1>TEST HEADLINE</h1>
+	</div>
+
+	<div id="loginbox">
+		<form id="login">
+			<table>
+		    <tr><td class="first">Username:</td>
+			<td><input type="text" name="username" /></td></tr>
+		    <tr><td class="first">Password:</td>
+			<td><input type="password" name="password" /></td>
+		    <tr><td><button type="button">Login</button></td>
+			</table>
+		</form>
+	</div> <!--loginbox End Tag-->
+</div><!--header End Tag-->
+
+<div id="topbar">
+	<div id="navcont">
+	<ui id="navbar">
+		<li><a href="About.html" class="nav">About</a></li>
+		<li><a href="Archive.html" class="nav">Archive</a></li>
+		<li><a href="Videos.html" class="nav">Videos</a></li>
+		<li><a href="Blog.html" class="nav">Blog</a></li>
+		<li><a href="Contact.html" class="nav" id="last">Contact</a></li>
+	</ui>
+	</div><!--navcont Eng Tag-->
+</div> <!--topbar End Tag -->
+
+<div id="body">
+	
+		<div class="col" id="leftcol">
+			<div id="leftcont">
+				<h1>What's New</h1>
+				<div id="FormLeft">
+					<form>
+					<input type="textbox" name="input" /></br>
+					</form>
+				</div><!--FormLeft End Tag-->
+			</div><!--leftcont End Tag-->
+		</div><!--leftcol End Tag-->
+
+		<div class="col" id="rightcol">
+			<div id="rightcont">
+			<h1>Test Headline</h1>
+			
+			<div id="example"></div>
+
+			<script type="text/javascript">
+
+			txt = "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
+			txt+= "<p>Browser Name: " + navigator.appName + "</p>";
+			txt+= "<p>Browser Version: " + navigator.appVersion + "</p>";
+			txt+= "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>";
+			txt+= "<p>Platform: " + navigator.platform + "</p>";
+			txt+= "<p>User-agent header: " + navigator.userAgent + "</p>";
+
+			document.getElementById("example").innerHTML=txt;
+
+			</script>
+
+			</div><!--rightcont End Tag-->
+		</div><!--rightcol End Tag-->
+</div> <!--body End Tag -->
+
+<div id="footer">
+	<div id="footercont">
+	<p>
+		Albert Miller &copy 2012 
+	</p>
+	</div><!--footercont End Tag -->
+</div><!--footer End Tag -->
+
+</div><!--container End Tag -->
+
+</body>
+</html>

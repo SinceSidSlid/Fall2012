@@ -1,0 +1,167 @@
+#container{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#000000;
+}
+
+#leftcont{
+	color:#FFFFFF;
+	padding-left:20px;
+	padding-top:15px;
+	font-family:Arial;
+}
+
+#rightcont{
+	color:#FFFFFF;
+	padding-left:20px;
+	padding-top:15px;
+	font-family:Arial;
+}
+
+
+#header{
+	background-color:black;
+	height:130px;
+	margin-bottom:10px;
+	border:2px solid #009999;
+	width:996px;
+	margin-top: 10px;
+	color:#FFFFFF;
+	border-radius:10px;
+}
+
+#headertext{
+	margin-top:5px;
+	margin-left:10px;
+	float:left;
+	clear:both;
+	font-family:Arial;
+	font-size:30px;
+	text-decoration:none;
+}
+
+#body{
+	width:1000px;
+}
+
+#loginbox{
+	float:right;
+	padding-top:0px;
+	margin-top:5px;
+	margin-right:5px;
+	color:#FFFFFF;
+	/*border:2px solid #009999;
+	box-shadow: -5px 5px 2px #888888;*/
+}
+
+#leftcol{
+	width:491px;
+	height:510px;
+	background-color:#2B2B2B;
+	margin-right:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	float:left;
+	border-radius:10px;
+	border:2px solid #009999;
+	color: #FFFFFF
+}
+
+#FormLeft{
+	margin-top:10px;
+}
+
+
+#rightcol{
+	width:491px;
+	height:510px;
+	background-color:#2B2B2B;
+	margin-left:5px;
+	float:right;
+	border-radius:10px;
+	border:2px solid #009999;
+	margin-top:10px;
+	margin-bottom:10px;
+	color: #FFFFFF
+}
+
+#topbar{
+	width:996px;
+	height:40px;
+	background-color:#000000;
+	border:2px solid #009999;
+	clear:both;
+	padding-left:1px;
+	padding-right:1px;
+}
+
+#navbar{
+	list-style-type:none;
+	margin-top:3px;
+	padding:0;
+	background-color:#009999;
+	color:white;
+} 
+
+#navcont{
+	margin-top:5px;
+}
+
+li{
+	float:left;
+
+}
+
+#last{
+	border-right:0px solid #009999;
+}
+
+.nav{
+	display:block;
+	width:197px;
+	color:white;
+	text-decoration:none;
+	font-family:Arial;
+	font-size:25px;
+	text-transform:uppercase;
+	text-align:center;
+	border-right:2px solid #009999;
+
+}
+
+a:link {color:#FFFFFF;}      /* unvisited link */
+a:visited {color:#FFFFFF;}  /* visited link */
+a:hover {color:#009999;}  /* mouse over link */
+a:active {color:#FFFFFF;}  /* selected link */ 
+
+p{
+	color:white;
+	font-size:15px;
+	font-family:Arial;
+}
+
+#footer{
+	width:996px;
+	height:100px;
+	background-color:#000000;
+	clear:both;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border:2px solid #009999;
+	border-radius:10px;
+}
+
+body{
+	background-color:#000000;
+}
+
+.first{
+	padding-right:40px;
+	font-family:helvetica;
+}
+
+*{
+	padding:0px;
+	margin:0px;
+}

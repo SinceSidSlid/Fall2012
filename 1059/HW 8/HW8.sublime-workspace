@@ -1,0 +1,636 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"varT",
+				"varTname"
+			],
+			[
+				"var",
+				"varThread"
+			],
+			[
+				"mysql",
+				"mysql_query"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"sessio",
+				"session_start"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"m",
+				"margin-right"
+			],
+			[
+				"bode",
+				"border"
+			],
+			[
+				"magin",
+				"margin-left"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"em",
+				"employee"
+			],
+			[
+				"P",
+				"Project"
+			],
+			[
+				"Dep",
+				"Department"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"mysql_nu",
+				"mysql_num_rows"
+			],
+			[
+				"va",
+				"varUname"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"nav",
+				"nav_inner"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"print",
+				"print"
+			],
+			[
+				"sub",
+				"submit"
+			],
+			[
+				"exl",
+				"explode"
+			],
+			[
+				"array",
+				"arrayin"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"preg",
+				"preg_split"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"conte",
+				"content_inner"
+			],
+			[
+				"repeat",
+				"repeat-y"
+			],
+			[
+				"pading",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"rep",
+				"repeat-y"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"na",
+				"nav_inner"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"is",
+				"is_int"
+			],
+			[
+				"num",
+				"numBlocks"
+			],
+			[
+				"find",
+				"findpos2"
+			],
+			[
+				"fin",
+				"findpos1"
+			],
+			[
+				"la",
+				"last119Characters"
+			],
+			[
+				"number",
+				"numberofWords"
+			],
+			[
+				"subs",
+				"substring1"
+			],
+			[
+				"my",
+				"myString"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"t",
+				"text-indent"
+			],
+			[
+				"Font",
+				"font-weight"
+			],
+			[
+				"Los",
+				"LosAngeles"
+			],
+			[
+				"Sa",
+				"SanFrancisco"
+			],
+			[
+				"C",
+				"Cincinnati"
+			],
+			[
+				"Lo",
+				"LongIsland"
+			],
+			[
+				"T",
+				"Tacoma"
+			],
+			[
+				"Ne",
+				"NewYorkCity"
+			],
+			[
+				"N",
+				"NewYork"
+			],
+			[
+				"Ci",
+				"Cincinnati"
+			],
+			[
+				"San",
+				"SanFrancisco"
+			],
+			[
+				"NY",
+				"NY"
+			],
+			[
+				"v",
+				"varCity"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
+				"f",
+				"form	Tag"
+			],
+			[
+				"bl",
+				"background-color"
+			],
+			[
+				"paddig",
+				"padding-left"
+			],
+			[
+				"ri",
+				"rightcol"
+			],
+			[
+				"else",
+				"elseif	elseif …"
+			],
+			[
+				"varS",
+				"varStatus"
+			],
+			[
+				"H",
+				"H3	Tag"
+			],
+			[
+				"Week",
+				"Weekdays"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"s",
+				"s"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/School/Fall 2012/1059/HW 8/post.php",
+		"/D/School/Fall 2012/1059/HW 8/schema.txt",
+		"/D/School/Fall 2012/CDM/Video/test.html",
+		"/D/School/Fall 2012/1059/index.php",
+		"/D/School/Fall 2012/1059/HW 8/register.txt",
+		"/D/School/Fall 2012/1059/HW 8/board.php",
+		"/D/School/Fall 2012/1059/HW 8/style.css",
+		"/D/School/Fall 2012/1059/HW 8/logoff.txt",
+		"/D/School/Fall 2012/1059/HW 8/post.txt",
+		"/D/School/Fall 2012/1059/HW 8/thread.txt",
+		"/D/School/Fall 2012/1059/HW 8/board.txt",
+		"/D/School/Fall 2012/1059/HW 8/main.txt",
+		"/D/School/Fall 2012/1059/HW 8/login.txt",
+		"/D/School/Fall 2012/1059/HW 7/Query.php",
+		"/D/School/Fall 2012/1059/HW 8/reply.php",
+		"/D/School/Fall 2012/1059/HW 8/dbconnect.php",
+		"/D/School/Fall 2012/template.html",
+		"/D/School/Fall 2012/1059/HW 2/HW2_3.php",
+		"/D/School/Fall 2012/1059/HW 7/login.php",
+		"/D/School/Fall 2012/1052/Homework7/liquid.css",
+		"/D/School/Fall 2012/1052/Homework7/liquid.html",
+		"/D/School/Fall 2012/1052/Homework7/crazy.css",
+		"/D/School/Fall 2012/1052/Homework7/crazy.html",
+		"/D/School/Fall 2012/1052/Homework7/hw7.html",
+		"/D/School/Fall 2012/1052/index.html",
+		"/D/School/Fall 2012/1052/Homework6/hw6p2.html",
+		"/D/School/Fall 2012/1052/Homework6/hw6.css",
+		"/D/School/Fall 2012/1059/HW 7/DB_test.php",
+		"/D/School/Fall 2012/1059/HW 7/test.php",
+		"/D/School/Fall 2012/1059/HW 7/Database.txt",
+		"/D/School/Fall 2012/1059/HW 7/Query.txt",
+		"/D/School/Fall 2012/1059/HW 7/SQL Stuff.txt",
+		"/D/School/Fall 2012/1059/HW 7/help php",
+		"/D/School/Fall 2012/1059/HW 7/login.txt",
+		"/D/School/Fall 2012/1059/HW 7/zackqueries.php",
+		"/D/School/Fall 2012/1059/test.php",
+		"/D/School/Fall 2012/1059/HW 6/QuizHandler.php",
+		"/D/School/Fall 2012/1059/HW 4/baseball.php",
+		"/D/School/Fall 2012/1059/HW 2/HW2_2.php",
+		"/D/School/Fall 2012/1059/HW 6/Quiz.php",
+		"/D/School/Fall 2012/1059/HW 7/dbconnect.php",
+		"/D/School/Fall 2012/1052/Homework6/hw6.html",
+		"/D/My Documents/Absent/Script",
+		"/D/School/Fall 2012/CDM/Website/Part 1/index.html",
+		"/D/School/Fall 2012/1052/Homework5/HW5p2.html",
+		"/D/School/Fall 2012/CDM/Website/Part 1/10.html",
+		"/D/School/Fall 2012/CDM/Website/Part 1/photo.css",
+		"/D/School/Fall 2012/CDM/Website/Part 1/style.css",
+		"/D/School/Fall 2012/CDM/Website/Part 1/3.html",
+		"/D/School/Fall 2012/CDM/Website/Part 1/9.html",
+		"/D/School/Fall 2012/CDM/Website/Part 1/8.html",
+		"/D/School/Fall 2012/CDM/Website/Part 1/7.html",
+		"/D/School/Fall 2012/CDM/Website/Part 1/6.html",
+		"/D/School/Fall 2012/CDM/Website/Part 1/5.html",
+		"/D/School/Fall 2012/CDM/Website/Part 1/4.html",
+		"/D/School/Fall 2012/CDM/Website/Part 1/2.html",
+		"/D/School/Fall 2012/CDM/Website/Part 1/photo.html",
+		"/D/School/Fall 2012/1059/HW 6/Dir.txt",
+		"/D/School/Fall 2012/1059/HW 6/Upload.txt",
+		"/D/School/Fall 2012/1059/HW 6/Save.txt",
+		"/D/School/Fall 2012/1059/HW 6/Extra.txt",
+		"/D/School/Fall 2012/1059/HW 3/main.php",
+		"/D/School/Fall 2012/1059/HW 6/QuizHandler.txt",
+		"/D/School/Fall 2012/1059/HW 6/QuizInc.txt",
+		"/D/School/Fall 2012/1059/HW 6/Quiz.txt",
+		"/D/School/Fall 2012/1059/HW 3/footer.php",
+		"/D/School/Fall 2012/1059/HW 6/QuizInc.php",
+		"/D/School/Fall 2012/1059/HW 3/comment.php",
+		"/D/School/Fall 2012/1059/HW 3/state.php",
+		"/D/School/Fall 2012/1059/HW 4/bobWebPage2.php",
+		"/D/School/Fall 2012/1059/HW 4/bobWebPage.php",
+		"/D/School/Fall 2012/1052/Homework5/HW5.css",
+		"/D/School/Fall 2012/1052/Homework5/photoshop5.html",
+		"/D/School/Fall 2012/1052/Homework5/hw5.html",
+		"/D/School/Fall 2012/1052/Homework4/hw4.html",
+		"/D/School/Fall 2012/1052/Homework4/hw4.css",
+		"/D/School/Fall 2012/1052/Homework4/hw4_1.html",
+		"/D/School/Fall 2012/1059/HW 5/SmallBusiness.txt",
+		"/D/School/Fall 2012/1059/HW 5/SmallBusiness2.txt",
+		"/D/School/Fall 2012/1059/HW 5/SmallBusiness3.txt",
+		"/D/School/Fall 2012/1059/HW 4/extracredit.txt",
+		"/D/School/Fall 2012/1059/HW 4/baseball.txt",
+		"/D/School/Fall 2012/1052/Homework4/rules.txt",
+		"/D/School/Fall 2012/1059/HW 4/bobWebPage2.txt",
+		"/D/School/Fall 2012/1059/HW 1/testcss.css",
+		"/D/School/Fall 2012/1059/HW 1/test.html",
+		"/D/School/Fall 2012/1052/Homework3/hw3.css",
+		"/D/School/Fall 2012/1052/Homework4/HW4",
+		"/D/School/Fall 2012/1059/HW 3/post.txt",
+		"/D/School/Fall 2012/1059/HW 3/state.txt",
+		"/D/School/Fall 2012/1059/HW 2/HW2_1.php",
+		"/D/School/Fall 2012/1059/HW 3/Zack.php",
+		"/D/School/Fall 2012/1059/HW 3/post.php",
+		"/D/School/Fall 2012/1059/HW 2/HW2.php",
+		"/D/School/Fall 2012/1059/HW 3/header.php",
+		"/D/School/Fall 2012/1059/HW 3/header.txt",
+		"/D/School/Fall 2012/1059/HW 3/main.txt",
+		"/D/School/Fall 2012/1059/HW 3/footer.txt",
+		"/D/School/Fall 2012/1059/HW 3/comment.txt",
+		"/D/School/Fall 2012/index.html",
+		"/D/School/Fall 2012/CDM/Website/index.html",
+		"/D/School/Fall 2012/CDM/Website/Part 1/12.html",
+		"/D/School/Fall 2012/CDM/Website/Part 1/11.html",
+		"/D/School/Fall 2012/CDM/Website/Part 1/1.html",
+		"/D/School/Fall 2012/1052/Homework2/Homework2p3.html",
+		"/D/Old Machine/Old Stuff/Documents/Maginificent 10/recruit.html",
+		"/D/School/Fall 2012/1052/Homework3/Errors.html",
+		"/D/School/Fall 2012/1052/Homework3/Homework3p1.html",
+		"/D/School/Fall 2012/1052/Homework3/hw3.html",
+		"/D/Old Machine/Old Stuff/Documents/Maginificent 10/apply.html",
+		"/D/School/Fall 2012/1052/Homework3/Photoshop.html",
+		"/D/School/Fall 2012/1052/Homework3/Homework3p2.html",
+		"/D/School/Fall 2012/1052/Homework3/errors.html",
+		"/D/School/Fall 2012/CDM/Website/style.css",
+		"/D/Old Machine/Old Stuff/Downloads/Music/Animal House - Otis Day & The Knights - Shout.mp3",
+		"/C/Users/BertDesktop/Dropbox/Due Sept 17.txt",
+		"/D/School/Fall 2012/1059/HW 2/Zack.php",
+		"/D/School/Fall 2012/1059/HW 2/style.css",
+		"/D/School/Fall 2012/1059/HW 2/HW2_3.txt",
+		"/D/School/Fall 2012/1059/HW 2/HW2_2.txt",
+		"/D/School/Fall 2012/1059/HW 2/HW2_1.txt",
+		"/D/School/Fall 2012/1059/HW 2/HW2.txt",
+		"/D/School/Fall 2012/1059/HW 2/ATT00001.htm",
+		"/D/School/Fall 2012/CDM/Website/Part 1/infinite-rotator.js",
+		"/D/School/Fall 2012/CDM/Website/Part 1/test.css",
+		"/D/School/Fall 2012/CDM/Website/Part 1/test.html",
+		"/D/Downloads/jquery-infinite-rotator/jquery-infinite-rotator/js/infinite-rotator.js",
+		"/D/Downloads/jquery-infinite-rotator/jquery-infinite-rotator/index.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"t",
+			"header2",
+			";\n",
+			"/>'.$",
+			"mployee",
+			">';",
+			">=",
+			"/>\n",
+			";\n",
+			"com",
+			"on",
+			"h5",
+			"first",
+			";\n",
+			".</"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"h4"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

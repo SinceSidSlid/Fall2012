@@ -1,0 +1,90 @@
+mysql> show tables
+    -> ;
+Empty set (0.00 sec)
+
+mysql> CREATE TABLE IF NOT EXISTS `department` (
+    ->   `Department_ID` int(11) NOT NULL,
+    ->   `Department_Name` varchar(45) NOT NULL,
+    ->   `Department_Head` int(11) NOT NULL,
+    ->   PRIMARY KEY (`Department_ID`)
+    -> ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> CREATE TABLE IF NOT EXISTS `employees` (
+    ->   `Employee_ID` int(11) NOT NULL,
+    ->   `Lname` varchar(45) NOT NULL,
+    ->   `Fname` varchar(45) NOT NULL,
+    ->   `Department_ID` int(11) NOT NULL,
+    ->   `Project_ID` int(11) NOT NULL,
+    ->   `Address` varchar(45) NOT NULL,
+    ->   `Age` int(11) NOT NULL,
+    ->   `Phone` varchar(25) NOT NULL,
+    ->   PRIMARY KEY (`Employee_ID`)
+    -> ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> CREATE TABLE IF NOT EXISTS `projects` (
+    ->   `Project_ID` int(11) NOT NULL,
+    ->   `Project_Name` varchar(45) NOT NULL,
+    ->   `Project_Head` int(11) NOT NULL,
+    ->   `Department_ID` int(11) NOT NULL,
+    ->   PRIMARY KEY (`Project_ID`)
+    -> ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> show tables
+    -> ;
++----------------+
+| Tables_in_ug37 |
++----------------+
+| department     | 
+| employees      | 
+| projects       | 
++----------------+
+3 rows in set (0.00 sec)
+
+mysql> show create table department
+    -> ;
++------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Table      | Create Table                                                                                                                                                                                                            |
++------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| department | CREATE TABLE `department` (
+  `Department_ID` int(11) NOT NULL,
+  `Department_Name` varchar(45) NOT NULL,
+  `Department_Head` int(11) NOT NULL,
+  PRIMARY KEY  (`Department_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 | 
++------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+1 row in set (0.00 sec)
+
+mysql> show create table employees;
++-----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Table     | Create Table                                                                                                                                                                                                                                                                                                                                                        |
++-----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| employees | CREATE TABLE `employees` (
+  `Employee_ID` int(11) NOT NULL,
+  `Lname` varchar(45) NOT NULL,
+  `Fname` varchar(45) NOT NULL,
+  `Department_ID` int(11) NOT NULL,
+  `Project_ID` int(11) NOT NULL,
+  `Address` varchar(45) NOT NULL,
+  `Age` int(11) NOT NULL,
+  `Phone` varchar(25) NOT NULL,
+  PRIMARY KEY  (`Employee_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 | 
++-----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+1 row in set (0.01 sec)
+
+mysql> show create table projects;
++----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Table    | Create Table                                                                                                                                                                                                                                  |
++----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| projects | CREATE TABLE `projects` (
+  `Project_ID` int(11) NOT NULL,
+  `Project_Name` varchar(45) NOT NULL,
+  `Project_Head` int(11) NOT NULL,
+  `Department_ID` int(11) NOT NULL,
+  PRIMARY KEY  (`Project_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 | 
++----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+1 row in set (0.00 sec)

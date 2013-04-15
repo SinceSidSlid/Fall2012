@@ -1,0 +1,70 @@
+-- phpMyAdmin SQL Dump
+-- version 3.5.1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Oct 10, 2012 at 02:24 PM
+-- Server version: 5.5.24-log
+-- PHP Version: 5.3.13
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `SmallBusiness`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `department`
+--
+
+CREATE TABLE IF NOT EXISTS `department` (
+  `Department_ID` int(11) NOT NULL,
+  `Department_Name` varchar(45) NOT NULL,
+  `Department_Head` int(11) NOT NULL,
+  PRIMARY KEY (`Department_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `employees`
+--
+
+CREATE TABLE IF NOT EXISTS `employees` (
+  `Employee_ID` int(11) NOT NULL,
+  `Lname` varchar(45) NOT NULL,
+  `Fname` varchar(45) NOT NULL,
+  `Department_ID` int(11) NOT NULL,
+  `Project_ID` int(11) NOT NULL,
+  `Address` varchar(45) NOT NULL,
+  `Age` int(11) NOT NULL,
+  `Phone` varchar(25) NOT NULL,
+  PRIMARY KEY (`Employee_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `projects`
+--
+
+CREATE TABLE IF NOT EXISTS `projects` (
+  `Project_ID` int(11) NOT NULL,
+  `Project_Name` varchar(45) NOT NULL,
+  `Project_Head` int(11) NOT NULL,
+  `Department_ID` int(11) NOT NULL,
+  PRIMARY KEY (`Project_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

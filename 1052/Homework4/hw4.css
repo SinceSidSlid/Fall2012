@@ -1,0 +1,173 @@
+#container{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#000000;
+}
+
+#leftcont{
+	color:#FFFFFF;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:15px;
+	text-align:left;
+}
+
+#rightcont{
+	color:#FFFFFF;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:15px;
+	text-align:left;
+}
+
+#footercont{
+	color:#FFFFFF;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:15px;
+	text-align:left;
+}
+
+#header{
+	background-color:black;
+	height:130px;
+	margin-bottom:10px;
+	border:2px solid #2424FF;
+	width:996px;
+	margin-top: 10px;
+	color:#FFFFFF;
+	border-radius:10px;
+}
+
+#headertext{
+	margin-top:5px;
+	margin-left:10px;
+	float:left;
+	clear:both;
+	font-family:Arial;
+	font-size:30px;
+	text-decoration:none;
+}
+
+#body{
+	width:1000px;
+}
+
+#leftcol{
+	width:491px;
+	height:510px;
+	background-color:#000000;
+	margin-right:5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	float:left;
+	border-radius:10px;
+	border:2px solid #2424FF;
+	color: #FFFFFF
+}
+
+#rightcol{
+	width:491px;
+	height:510px;
+	background-color:#000000;
+	margin-left:5px;
+	float:right;
+	border-radius:10px;
+	border:2px solid #2424FF;
+	margin-top:10px;
+	margin-bottom:10px;
+	color: #FFFFFF
+}
+
+#topbar{
+	width:996px;
+	height:40px;
+	background-color:#000000;
+	border:2px solid #2424FF;
+	clear:both;
+	padding-left:1px;
+	padding-right:1px;
+}
+
+#navbar{
+	list-style-type:none;
+	margin-top:3px;
+	padding:0;
+	background-color:#2424FF;
+	color:white;
+} 
+
+#navcont{
+	margin-top:5px;
+}
+
+li{
+	float:left;
+
+}
+
+#last{
+	border-right:0px solid #2424FF;
+}
+
+.nav{
+	display:block;
+	width:197px;
+	color:white;
+	text-decoration:none;
+	font-family:Arial;
+	font-size:25px;
+	text-transform:uppercase;
+	text-align:center;
+	border-right:2px solid #2424FF;
+
+}
+
+a:link {color:#FFFFFF;}      /* unvisited link */
+a:visited {color:#FFFFFF;}  /* visited link */
+a:hover {color:#009999;}  /* mouse over link */
+a:active {color:#FFFFFF;}  /* selected link */ 
+
+p{
+	color:white;
+	font-size:10pt;
+	font-family:Georgia;
+	font-variant:normal;
+	font-weight:900;
+	text-decoration:none;
+	letter-spacing: 1px;
+	word-spacing: 0.2em;
+	text-decoration: none;
+	line-height: 1.7em;
+
+}
+
+h1{
+	font-family:Arial;
+}
+
+#footer{
+	width:996px;
+	height:120px;
+	background-color:#000000;
+	clear:both;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border:2px solid #2424FF;
+	border-radius:10px;
+}
+
+body{
+	background-color:#000000;
+}
+
+.first{
+	padding-right:40px;
+	font-family:helvetica;
+}
+
+*{
+	padding:0px;
+	margin:0px;
+}

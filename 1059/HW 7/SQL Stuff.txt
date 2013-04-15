@@ -1,0 +1,83 @@
+insert into login values('perks', 'pitt');
+
+select project.Pname as PName, employee.Lname as Lname from members 
+inner join project on members.P_ID = project.P_ID 
+inner join employee on members.E_ID = employee.E_ID;
+
+ALTER TABLE employee MODIFY E_ID INT NOT NULL AUTO_INCREMENT;
+
+ALTER TABLE login MODIFY L_ID INT NOT NULL AUTO_INCREMENT;
+
+Employee:
+
+List all the employees in a particular department.
+
+select * from employee where Dept = \'$varDept\';
+
+List all of the employees working on a particular project
+
+select employee.Lname as Lname, employee.Fname as Fname, project.Pname as Pname from members 
+inner join project on members.P_ID = project.P_ID
+inner join employee on members.E_ID = employee.E_ID
+where P_ID = $varProj;
+
+List employees who are free to work on a project
+
+select Fname, Lname from employee where E_ID not in (select E_ID FROM members);
+
+List all employees who are working on multiple projects.
+
+select Fname, Lname, members.E_ID, count(*) from members, employee where employee.E_ID = members.E_ID group by E_ID having count(*) > 1;
+
+Project:
+
+List projects and rank order by budget – highest to lowest
+
+select Pname, budget from project order by budget desc;
+
+List all projects that are over budget
+
+select Pname, spent, budget from project where spent>budget;
+
+List all projects that have finished
+
+select Pname, DueDate from project where DueDate < NOW();
+
+List the average cost of a project
+
+select avg(spent) as Average FROM project;
+
+List the average cost of projects for a particular department
+
+select Dept, avg(spent) as Average FROM project where Dept = \'$varDept\';
+
+Department:
+
+List the depts. of all the employees working on a project
+
+select employee.Lname as Lname, employee.Fname as Fname, project.Pname as Pname from members 
+inner join project on members.P_ID = project.P_ID
+inner join employee on members.E_ID = employee.E_ID;
+
+List the depts. of all employees not working on a project
+
+select Dept, Fname, Lname FROM employee where E_ID in (select members.E_ID from members);
+
+List which depts. have no projects
+
+select distinct Dept from employee where Dept not in (select project.Dept from project, employee where employee.Dept = project.Dept);
+
+Random Stuff
+
+select employee.Lname as Lname, employee.Fname as Fname, project.Pname as Pname from members 
+inner join project on members.P_ID = project.P_ID
+inner join employee on members.E_ID = employee.E_ID
+where members.P_ID = 1;
+
+select Username, Password from login where Username = "perks" and Password = "pitt";
+
+$query = "select Username, Password from login where Username = '$varUname' and Password = '$varPword';";
+
+select Dept, Fname, Lname FROM employee where E_ID not in (select members.E_ID from members);
+
+select distinct Dept from employee where Dept not in (select project.Dept from project, employee where employee.Dept = project.Dept);

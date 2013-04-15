@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Homework 2 Part 3</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+</head>
+<body>
+<?php
+	//Worked on, and completed in class on Sept. 12 with Zack Hall and Amar Patel 
+	if($_POST['Submit'] == "Submit")
+	{
+		$varName=$_POST['YourName'];
+		$varGender=$_POST['Gender'];
+		$varYear=$_POST['Year'];
+		$varComments=$_POST['Comments'];
+		
+		echo "<h1>Name: $varName</h1><h2>Gender: $varGender</h2><h3>Year: $varYear</h3><p>Comments: $varComments</p>";
+	}
+?>
+<form action="HW2_1.php" method="post">
+	<h2>Form</h2>
+	<p>
+		Your Name<br />
+		<input type="text" name="YourName" value="<?=$varName;?>" size="25" maxlength="50" /><!--If name was filled and submitted fill in the submitted name-->
+	</p>
+	
+	<!--Our Attempt at Sticky buttons-->
+	<? 
+	print ' 
+		<p>Gender<br />Male<input type="radio" name="Gender" value="Male" '; 
+		if ($_POST['Gender'] == 'Male') echo 'checked="checked"'; //Check if "Male" for sticky radio button
+		print '/>'; 
+		print 'Female <input type="radio" name="Gender" value="Female" ';
+		if ($_POST['Gender'] == 'Female') echo 'checked="checked"'; //Check if "Female" for sticky radio button
+		print '/></p>';
+	
+	print 
+		'<p>
+		Freshman
+		<input type="checkbox" name="Year" value="Freshman" ';
+		if ($_POST['Year'] == "Freshman") echo 'checked="checked"';//Check if "Freshman" for sticky checkbox
+		print ' />
+		Sophomore
+		<input type="checkbox" name="Year" value="Sophomore" ';
+		if ($_POST['Year'] == "Sophomore") echo 'checked="checked"';//Check if "Sophmore" for sticky checkbox
+		print ' />
+		Junior
+		<input type="checkbox" name="Year" value="Junior" ';
+		if ($_POST['Year'] == "Junior") echo 'checked="checked"';//Check if "Junior" for sticky checkbox
+		print ' />
+		Senior
+		<input type="checkbox" name="Year" value="Senior" ';
+		if ($_POST['Year'] == "Senior") echo 'checked="checked"';//Check if "Freshman" for sticky checkbox
+		print ' />';
+	?>
+		<br /><br />Comments<br />
+		<textarea name="Comments" rows="4" cols="16"><? 
+		if(isset($_POST['Comments'])) 
+		{ 
+		   print "$varComments"; //If there are comments submitted print them in the boxx
+		}	 
+		?></textarea>
+		<br />
+		<input type="submit" name="Submit" value="Submit" />
+	</p>
+</form>
+</body>
+</html>

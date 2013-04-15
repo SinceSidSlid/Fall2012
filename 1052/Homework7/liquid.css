@@ -1,0 +1,160 @@
+.wrapper
+{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1300px;
+	min-width: 850px;
+}
+
+.content
+{
+	/*background: url('mc2.jpg') repeat-y;*/
+	max-width: 1300px;
+	min-width: 850px;
+	overflow: hidden
+}
+
+header
+{
+	background: url('header.png') #0C0C0A no-repeat;
+	height: 120px;
+}
+
+aside
+{
+	/*float: left;*/
+	width:21%;
+	background-color: #5C5D59;
+	margin-top: 10px;
+	padding-bottom: 32767px;
+	margin-bottom: -32767px;
+	/*height: 550px;*/
+
+}
+
+.left
+{
+	background: url('l.jpg') #5C5D59 repeat-y;
+	background-position:right top; 
+	float: left;
+}
+
+.socialmedia img
+{
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.sm2 img
+{
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#last
+{
+	clear: both;
+}
+
+.help
+{
+	clear: both;
+}
+
+.right
+{
+	background: url('r.jpg') #5C5D59 repeat-y;
+	background-position:left top; 
+	float: left;
+}
+
+.inner_right
+{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.right p
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+section
+{
+	float: left;
+	width: 54%;
+	background-color: #171415;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-bottom: 32767px;
+	margin-bottom: -32767px;
+}
+
+.inner
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+section p
+{
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+.float
+{
+	float: right;
+	border: 2px solid #5C5D59;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+aside ul
+{
+	font-family: 'Just Me Again Down Here', cursive;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 200%;
+	margin-left: 20px;
+}
+
+.right ul
+{
+	font-family: 'Ubuntu Mono', sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 100%;
+}
+
+.right li
+{
+	margin-bottom: 10px;
+}
+
+h2
+{
+	font-family: 'Just Me Again Down Here', cursive;
+	font-size: 200%;
+}
+
+body
+{
+	color: white;
+	background-color: #581AB6;
+	font-family: 'Ubuntu Mono', sans-serif;
+}
+
+*
+{
+	margin:0px;
+	padding:0px;
+}

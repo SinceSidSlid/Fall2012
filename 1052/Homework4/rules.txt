@@ -1,0 +1,11 @@
+Here is my top ten list of typography rules to follow for the web. 
+1. When picking fonts for headers and paragraphs pick one serif and one sans-serif. 
+2. There should be an appropriate amount of white space between all elements.
+3. Don’t use more than three fonts 
+4. Make sure the line height allows for maximum readability. 
+5. Try not to use justified alignment ever. 
+6. Ensure that the leading and kerning are properly set. 
+7. Use the Fibonacci sequence or something similar to give your page a “natural elegance.” 
+8. Pick a simple font for the paragraph font; place a high value on readability. 
+9. The paragraph font size should be between 10 and 12 pt. 
+10. Make sure the font color and the background color have enough contrast so that people don’t struggle to read the page

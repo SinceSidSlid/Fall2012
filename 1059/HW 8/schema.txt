@@ -1,0 +1,41 @@
+mysql> desc category;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| cID   | int(5)      | NO   | PRI | NULL    |       | 
+| cName | varchar(25) | YES  |     | NULL    |       | 
++-------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+mysql> desc topic;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| tID   | int(5)      | NO   | PRI | NULL    |       | 
+| tName | varchar(25) | YES  |     | NULL    |       | 
+| cID   | int(5)      | YES  | MUL | NULL    |       | 
+| uID   | int(5)      | YES  | MUL | NULL    |       | 
++-------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+mysql> desc reply;
++-------+--------+------+-----+---------+----------------+
+| Field | Type   | Null | Key | Default | Extra          |
++-------+--------+------+-----+---------+----------------+
+| rID   | int(5) | NO   | PRI | NULL    | auto_increment | 
+| rText | text   | YES  |     | NULL    |                | 
+| uID   | int(5) | YES  |     | NULL    |                | 
+| tID   | int(5) | YES  |     | NULL    |                | 
++-------+--------+------+-----+---------+----------------+
+4 rows in set (0.00 sec)
+
+
+mysql> desc users;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| uID   | int(5)      | NO   | PRI | NULL    |       | 
+| uName | varchar(25) | YES  |     | NULL    |       | 
+| pWord | varchar(20) | YES  |     | NULL    |       | 
++-------+-------------+------+-----+---------+-------+
+
